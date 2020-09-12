@@ -15,7 +15,17 @@ cargo test
 cargo check
 cargo watch -c -x run
 
+# Available binaries:
+    publish_post
+    show_posts
+    write_post
+
 cargo run --bin write_post
+  teste_1
+  Dig conteudo
+cargo run --bin publish_post 1
+cargo run --bin show_posts
+cargo run --bin delete_post teste_1
 ```
 
 ## Install Diesel
