@@ -46,7 +46,7 @@ cargo upgrade regex --workspace
 
 #ou em Cargo.toml no seu projeto, adicione à seção [dependencies]:
 [dependencies]
-diesel = "1.4.5"
+diesel = { version = "1.4.5", features = ["sqlite"] }
 ```
 
 
