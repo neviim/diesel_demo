@@ -1,4 +1,4 @@
-# Criando um demo em rust usando Sqlite
+# Criando um CRUD em Rust usando Diesel - Sqlite
 
 
 ## Cargo
