@@ -70,7 +70,7 @@ cargo run --bin show_posts
 
 
 ## starship - prompt conf 
-```conf
+```yaml
 vim ~/.config/starship.toml
   # https://starship.rs
 
