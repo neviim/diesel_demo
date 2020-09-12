@@ -26,6 +26,8 @@ cargo run --bin write_post
 cargo run --bin publish_post 1
 cargo run --bin show_posts
 cargo run --bin delete_post teste_1
+
+cargo run --bin show_posts --release
 ```
 
 ## Install Diesel
