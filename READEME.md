@@ -49,6 +49,7 @@ cargo upgrade regex --workspace
 diesel = "1.4.5"
 ```
 
+
 ## up.sql
 ```sql
 CREATE TABLE "posts" (
@@ -60,16 +61,12 @@ CREATE TABLE "posts" (
 ```
 
 
-
 ## Execute modulos
 ```zsh
 
 cargo run --bin publish_post 1
 cargo run --bin show_posts
 ```
-
-
-
 
 
 ## starship - prompt conf 
@@ -115,10 +112,4 @@ vim ~/.config/starship.toml
   rustup default stable
   # ou para nightly rust:
   rustup default nightly
-```
-
-
-
-```zsh
-# referencia video: https://youtu.be/_pPtsPNdNrc?t=1780 (29:40)
 ```
