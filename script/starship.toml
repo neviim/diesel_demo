@@ -1,0 +1,70 @@
+add_newline = false
+#prompt_order=["rust","line_break","package","line_break","character"]
+#scan_timeout = 10
+
+#[custom.foo]
+#command = "echo foo"  # shows output of command
+#files = ["foo"]       # can specify filters
+#when = """ test "$HOME" == "$PWD" """
+#prefix = " transcending "
+
+[package]
+disabled = false
+
+[username]
+disabled = true
+
+[character]
+symbol = "~^~\"
+error_symbol = "~\~W"
+use_symbol_for_status = true
+
+[docker_context]
+symbol = "~_~P~K "
+only_with_files = true
+
+[dotnet]
+symbol = "~_~E "
+style = "green"
+heuristic = false
+
+[python]
+symbol = "~_~Q "
+pyenv_version_name = true
+pyenv_prefix = "foo "
+
+[golang]
+symbol = "~_~O~N~_~R "
+
+[nodejs]
+symbol = "~_~V "
+
+[julia]
+symbol = "~H "
+
+[git_branch]
+symbol = "~_~L "
+truncation_length = 4
+truncation_symbol = ""
+
+[git_commit]
+commit_hash_length = 4
+
+[git_state]
+progress_divider = " of "
+cherry_pick = "~_~M~R PICKING"
+
+[git_status]
+conflicted = "~_~O"
+ahead = "~_~O~N~_~R"
+behind = "~_~X"
+diverged = "~_~X"
+untracked = "~_~@~M"
+stashed = "~_~S"
+modified = "~_~S~]"
+staged.value = "++"
+staged.style = "green"
+staged_count.enabled = true
+staged_count.style = "green"
+renamed = "~_~Q~E"
+deleted = "~_~W~Q"
